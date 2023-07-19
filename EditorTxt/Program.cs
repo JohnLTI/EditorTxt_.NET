@@ -43,8 +43,8 @@ namespace EditorTxt
                 Console.WriteLine(texto);
             }
 
-            Console.WriteLine("");
-            Console.ReadLine();
+            Console.WriteLine("Digite qualquer tecla para voltar ao Menu Inicial!");
+            Console.ReadKey();
             Menu();
         }
         static void Editar()
@@ -78,7 +78,7 @@ namespace EditorTxt
 
             Console.WriteLine("");
             Console.WriteLine($"Arquivo {caminho} salvo com sucesso!");
-            Console.WriteLine("Digite uma tecla para voltar ao menu inicial!");
+            Console.WriteLine("Digite uma tecla para voltar ao Menu Inicial!");
             Console.ReadKey();
             Menu();
         }
