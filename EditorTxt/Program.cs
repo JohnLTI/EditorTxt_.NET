@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Threading;
 
 namespace EditorTxt
@@ -33,6 +34,18 @@ namespace EditorTxt
         static void Abrir()
         {
             Console.Clear();
+            Console.WriteLine("Qual o caminho do arquivo?");
+            string caminho = Console.ReadLine();
+
+            using (var arquivo = new StreamReader(caminho))
+            {
+                string texto = arquivo.ReadToEnd();
+                Console.WriteLine(texto);
+            }
+
+            Console.WriteLine("");
+            Console.ReadLine();
+            Menu();
         }
         static void Editar()
         {
@@ -48,21 +61,34 @@ namespace EditorTxt
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape); // verificando se a tecla apertada é diferente de ESC (Escape)
 
-            Console.WriteLine("");
-            Console.WriteLine("---------------");
-            Console.Write(texto);
-            Thread.Sleep(3000);
+            Salvar(texto);
             Menu();
+        }
 
+        static void Salvar(string texto)
+        {
+            Console.Clear();
+            Console.WriteLine("QQual o caminho para salvar o arquivo?");
+            var caminho = Console.ReadLine();
+
+            using (var arquivo = new StreamWriter(caminho)) //cria e fecha qualquer arquivo aberto nesta ferramenta
+            {
+                arquivo.Write(texto);
+            }
+
+            Console.WriteLine("");
+            Console.WriteLine($"Arquivo {caminho} salvo com sucesso!");
+            Console.WriteLine("Digite uma tecla para voltar ao menu inicial!");
+            Console.ReadKey();
+            Menu();
         }
         static void Saida()
         {
             Console.Clear();
             Console.WriteLine("Obrigado por utilizar o editor de texto!");
             Console.WriteLine("");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             System.Environment.Exit(0);
-
         }
     }
 }
