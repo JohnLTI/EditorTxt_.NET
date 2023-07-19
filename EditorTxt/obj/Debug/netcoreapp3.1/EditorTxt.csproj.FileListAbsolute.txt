@@ -1,0 +1,13 @@
+C:\ProjetosDev\EditorTxt\EditorTxt\bin\Debug\netcoreapp3.1\EditorTxt.exe
+C:\ProjetosDev\EditorTxt\EditorTxt\bin\Debug\netcoreapp3.1\EditorTxt.deps.json
+C:\ProjetosDev\EditorTxt\EditorTxt\bin\Debug\netcoreapp3.1\EditorTxt.runtimeconfig.json
+C:\ProjetosDev\EditorTxt\EditorTxt\bin\Debug\netcoreapp3.1\EditorTxt.runtimeconfig.dev.json
+C:\ProjetosDev\EditorTxt\EditorTxt\bin\Debug\netcoreapp3.1\EditorTxt.dll
+C:\ProjetosDev\EditorTxt\EditorTxt\bin\Debug\netcoreapp3.1\EditorTxt.pdb
+C:\ProjetosDev\EditorTxt\EditorTxt\obj\Debug\netcoreapp3.1\EditorTxt.csprojAssemblyReference.cache
+C:\ProjetosDev\EditorTxt\EditorTxt\obj\Debug\netcoreapp3.1\EditorTxt.AssemblyInfoInputs.cache
+C:\ProjetosDev\EditorTxt\EditorTxt\obj\Debug\netcoreapp3.1\EditorTxt.AssemblyInfo.cs
+C:\ProjetosDev\EditorTxt\EditorTxt\obj\Debug\netcoreapp3.1\EditorTxt.csproj.CoreCompileInputs.cache
+C:\ProjetosDev\EditorTxt\EditorTxt\obj\Debug\netcoreapp3.1\EditorTxt.dll
+C:\ProjetosDev\EditorTxt\EditorTxt\obj\Debug\netcoreapp3.1\EditorTxt.pdb
+C:\ProjetosDev\EditorTxt\EditorTxt\obj\Debug\netcoreapp3.1\EditorTxt.genruntimeconfig.cache
